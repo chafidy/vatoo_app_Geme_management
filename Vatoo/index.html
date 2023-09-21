@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vatoo | Gem Price Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Vatoo<span>.</span></a>
+        <div class="menuToggle"></div>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#apropos">About</a></li>
+            <li><a href="#menu">Type of gem</a></li>
+            <li><a href="#expert">Services</a></li>
+            <li><a href="register.php">Register</a></li>
+            <li><a href="login.php">Login</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Welcome to Vatoo</h2>
+            <p>Manage your gem price with our app.</p>
+            <a href="login.php" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section class="apropos" id="apropos">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titreText"><span>A</span>bout</h2>
+                <p>Welcome to [Site Name], the most comprehensive and intuitive platform for managing gemstone earnings. Whether you're a passionate collector, a gemstone trader, or simply curious about the value of your gems, our site provides you with the necessary tools to track and optimize your earnings.
+                <br><br>Our mission is to simplify the management of your gemstone-related income by providing advanced and user-friendly features. With our platform, you can record and track all your transactions, evaluate the current value of your gemstones, analyze your earnings by gemstone type, and generate detailed reports for a better understanding of your performance.
+                </p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="images/pexels-lehel-mozgai-4045685.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="titre">
+            <h2 class="titreText">Gem <span>T</span>ypes</h2>
+            <p>The best quality of gem. </p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                   <img src="images/1.jpg">
+                </div>
+                <div class="text">
+                    <h3>Saphir</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                   <img src="images/2.jpg">
+                </div>
+                <div class="text">
+                    <h3>Topaze</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                   <img src="images/3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Amethyst</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                   <img src="images/4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Emeraude</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                   <img src="images/5.jpg">
+                </div>
+                <div class="text">
+                    <h3>Green Rubis</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                   <img src="images/6.jpg">
+                </div>
+                <div class="text">
+                    <h3>Diamond</h3>
+                </div>
+            </div>
+        </div>
+        <div class="titre">
+            <a href="#" class="btn">See All</a>
+        </div>
+    </section>
+
+    <section class="expert" id="expert">
+        <div class="titre">
+            <h2 class="titreText">Our <span>S</span>ervice</h2>
+            <p>Choose and Start.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/expert4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Management of price</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/expert2.jpg">
+                </div>
+                <div class="text">
+                    <h3>Profil Management  </h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/expert3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Full Money Repport  </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright 2023 | <a href="#">Safidy RAHARIJESY</a> | Oracle Database Project M1</p>
+    </div>
+
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
